@@ -1,0 +1,128 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  height:100%;
+  width:100%;
+  color:black;
+  font-weight:bold;
+  animation: myanimation 10s infinite;
+  padding-top: 70px;
+}
+
+.footer-nav a:hover > .fa-linkedin{
+  color:#0077b5;
+}
+
+.footer-nav a:hover > .fa-facebook{
+  color:blue !important;
+}
+
+.footer-nav a:hover > .fa-instagram{
+  color:#0077b5;
+}
+
+
+.navbar{
+position:fixed;
+top:0;
+z-index: 100;
+width:100%;
+
+}
+
+.navbar-brand
+{
+  transition: 0.4s;
+  color: #ffffff;
+  font-size: 20px;
+
+}
+.navbar-brand:hover,
+.navbar-brand:focus {
+  background-color: transparent;
+  color: #999999;
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+.bg-navbar.transparent{
+  background-color: transparent;
+}
+.nav-link1{
+  transition: 0.4s;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+.nav-link1:hover {
+  background-color: #ffffff;
+  color: #EEA200;
+  padding: 24px 10px;
+}
+
+.nav-link2 {
+  transition: 0.4s;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+.nav-link2:hover {
+  background-color: #ffffff;
+  color: #EEA200;
+  padding: 24px 10px;
+}
+.nav-link3 {
+  transition: 0.4s;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+.nav-link3:hover {
+  background-color: #ffffff;
+  color: #EEA200;
+  padding: 24px 10px;
+}
+.row-footer {
+  position: relative;
+  background: transparent;
+
+  margin: 10px 0;
+  text-align: center;
+}
+.footer-nav {
+  text-align: center;
+  padding: 40px 0;
+}
+.footer-nav a {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+#blogtitle {
+    font-size: 6rem;
+}
+
+@media (min-width: 992px) {
+    #hometext {
+        font-size: 4rem;
+    }
+    #blogdetailtitle {
+        font-size: 5rem;
+    }
+}
