@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '7n6!u(vgrtzw8#gqxnx%0ipna!tzpozvgxxt8e$lx$hpxj7h!i'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['kichu1997.pythonanywhere.com']
 
 
 # Application definition
@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog',
     'portfolio',
-    'sorl.thumbnail',
 ]
 
 MIDDLEWARE = [
@@ -121,6 +120,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = 'static/'
+STATIC_ROOT  = BASE_DIR/'static'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT  = BASE_DIR/'media'
